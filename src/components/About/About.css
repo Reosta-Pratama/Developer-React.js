@@ -1,0 +1,137 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.about .line {
+    margin-bottom: 20px !important;
+    border: solid #7E7E7E66;
+    border-width: 1px 1px 0 1px !important;
+    min-height: 10px;
+}
+
+.about .bot-40 {
+    margin-bottom: 65px;
+    height: 100%;
+}
+
+.about .bot-40:first-child,
+.about .bot-40:last-child,
+.about .bot-40:nth-last-child(2),
+.about .bot-40:nth-last-child(3) {
+    margin-bottom: 0;
+}
+
+.about .content-about {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .content-about h4 {
+    color: #797979;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.about .content-about h2 {
+    color: black;
+    font-family: "Manrope", Sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 64px;
+}
+
+.about .content-about .head,
+.about .content-about .sub-head {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about .content-about .head p {
+    color: #797979;
+    line-height: 24px;
+}
+
+.about .content-about .sub-head h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: Plus Jakarta Sans;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about .bot-40 {
+        margin-bottom: 15px !important;
+    }
+
+    .about .content-about h4 {
+        font-size: 16px !important;
+    }
+
+    .about .content-about h2 {
+        font-size: 1.6em !important;
+        line-height: 1.5em !important;
+    }
+
+    .about .line {
+        margin: 40px 0 20px!important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about .bot-40 {
+        margin-bottom: 15px !important;
+    }
+
+    .about .content-about h4 {
+        font-size: 16px !important;
+    }
+
+    .about .content-about h2 {
+        font-size: 1.6em !important;
+        line-height: 1.5em !important;
+    }
+
+    .about .line {
+        margin: 40px 0 20px!important ;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .about .bot-40 {
+        margin-bottom: 65px !important;
+    }
+
+    .about .content-about h4 {
+        font-size: 20px !important;
+    }
+
+    .about .content-about h2 {
+        font-size: 60px !important;
+        line-height: 64px !important;
+    }
+
+    .about .content-about .sub-head h2 {
+        font-size: 24px !important;
+        line-height: 1 !important;
+    }
+
+    .about .line {
+        margin: 0 0 20px!important ;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

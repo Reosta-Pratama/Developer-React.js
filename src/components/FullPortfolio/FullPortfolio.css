@@ -1,0 +1,256 @@
+/*--------------------------------------------------------------
+# Full Portfolio
+--------------------------------------------------------------*/
+.fullPorfolio {
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.fullPorfolio .selection {
+    height: 100%;
+}
+
+.fullPorfolio .selection select {
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 16px 0 rgba(28, 28, 30, 0.06);
+    border: none;
+    color: #2B2B2B;
+    font-size: 16px;
+    font-family: Plus Jakarta Sans;
+    background-image: url("../../../public/img/icon/angle-small-down-black.png");
+    background-size: 15px 15px;
+}
+
+.fullPorfolio .selection .submit {
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 16px 0 rgba(28, 28, 30, 0.06);
+    border: none;
+    color: #2B2B2B;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+
+    transition: 0.3s;
+}
+
+.fullPorfolio .selection .submit:hover {
+    background-color: #262626;
+    color: white;
+}
+
+.fullPorfolio .row > * {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.fullPorfolio .content-portfolio {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    border-radius: 12pt;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.fullPorfolio .content-portfolio .img-fluid {
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+
+.fullPorfolio .content-portfolio:hover > .img-fluid {
+    transform: scale(1.2);
+}
+
+.fullPorfolio .content-portfolio .effect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    z-index: 1;
+
+    transition: 0.3s;
+}
+
+.fullPorfolio .content-portfolio:hover > .effect {
+    opacity: 0.4;
+}
+
+.fullPorfolio .desc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    color: white;
+    z-index: 2;
+
+    transition: 0.3s;
+}
+
+.fullPorfolio .content-portfolio:hover > .desc {
+    opacity: 1;
+}
+
+.fullPorfolio .desc .sub-title {
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.fullPorfolio .desc .tag {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5.5px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .fullPorfolio .selection {
+        margin-bottom: 10px;
+    }
+
+    .fullPorfolio .selection .submit {
+        background-color: #262626;
+        color: white;
+    }
+
+    .fullPorfolio .content-portfolio {
+        height: fit-content;
+        position: relative;
+        border-radius: 0;
+        overflow: auto;
+    }
+
+    .fullPorfolio .content-portfolio .img-fluid {
+        height: 240px;
+        border-radius: 12pt;
+        overflow: hidden;
+    }
+
+    .fullPorfolio .text .title {
+        font-size: 2.6em;
+        line-height: 1.2;
+    }
+
+    .fullPorfolio .desc {
+        height: fit-content;
+        position: relative;
+        display: block;
+        opacity: 1;
+    }
+
+    .fullPorfolio .desc .sub-title,
+    .fullPorfolio .desc .tag {
+        color: #262626;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .fullPorfolio .selection {
+        margin-bottom: 10px;
+    }
+
+    .fullPorfolio .selection .submit {
+        background-color: #262626;
+        color: white;
+    }
+
+    .fullPorfolio .content-portfolio {
+        height: fit-content;
+        position: relative;
+        border-radius: 0;
+        overflow: auto;
+    }
+
+    .fullPorfolio .content-portfolio .img-fluid {
+        height: 300px;
+        border-radius: 12pt;
+        overflow: hidden;
+    }
+
+    .fullPorfolio .text .title {
+        font-size: 2.6em;
+        line-height: 1.2;
+    }
+
+    .fullPorfolio .desc {
+        height: fit-content;
+        position: relative;
+        display: block;
+        opacity: 1;
+    }
+
+    .fullPorfolio .desc .sub-title,
+    .fullPorfolio .desc .tag {
+        color: #262626;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .fullPorfolio .content-portfolio .img-fluid {
+        height: 240px;
+    }
+
+    .fullPorfolio .selection {
+        margin-bottom: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .fullPorfolio .content-portfolio .img-fluid {
+        height: 300px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .fullPorfolio .selection .submit {
+        background-color: #e8e8e8;
+        color: #2B2B2B;
+    }
+
+    .fullPorfolio .content-portfolio {
+        height: 450px;
+        position: relative;
+        border-radius: 12pt;
+        overflow: hidden;
+    }
+
+    .fullPorfolio .content-portfolio .img-fluid {
+        height: 100%;
+        border-radius: 0;
+        overflow: auto;
+    }
+
+    .fullPorfolio .desc {
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+
+    .fullPorfolio .desc .sub-title,
+    .fullPorfolio .desc .tag {
+        color: white;
+    }
+}

@@ -1,0 +1,76 @@
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+.banner {
+    width: 100%;
+    background-color: #2B2B2B;
+    margin-bottom: 80px;
+}
+
+.banner .container {
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Manrope", Sans-serif;
+}
+
+.banner .container h2 {
+    color: #EF5D39;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.banner .container h1 {
+    color: #FFFFFF;
+    font-size: 4vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner .container h2 {
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+
+    .banner .container h1 {
+        font-size: 36px;
+        line-height: 1;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner .container h2 {
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+
+    .banner .container h1 {
+        font-size: 36px;
+        line-height: 1;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .banner .container h2 {
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .banner .container h1 {
+        font-size: 4vw;
+        line-height: 1;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

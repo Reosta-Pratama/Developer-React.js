@@ -1,0 +1,99 @@
+/*--------------------------------------------------------------
+# Testimonial
+--------------------------------------------------------------*/
+.testimonial {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.testimonial .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.testimonial .text .title {
+    font-family: "Manrope", Sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 64px;
+
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+}
+
+.testimonial .item {
+    background-color: #7878780D;
+    border-radius: 24px;
+}
+
+.testimonial .item .content-item {
+    padding: 20px 24px;
+}
+
+.testimonial .item .content-item .desc {
+    color: #262626;
+}
+
+.testimonial .item .profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.testimonial .item .profile .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.testimonial .item .profile .name {
+    margin-left: 10px;
+}
+
+.testimonial .item .profile .name .username {
+    color: #262626;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.testimonial .item .profile .name .job {
+    color: #262626;
+    font-size: 0.85em;
+    line-height: 1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .testimonial .text .title {
+        font-size: 2.6em;
+        line-height: 1.2;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .testimonial .text .title {
+        font-size: 2.6em;
+        line-height: 1.2;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .testimonial .text .title {
+        font-size: 60px;
+        line-height: 64px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

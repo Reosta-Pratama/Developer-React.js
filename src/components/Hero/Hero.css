@@ -1,0 +1,128 @@
+
+/*--------------------------------------------------------------
+# Start
+--------------------------------------------------------------*/
+.start {
+    width: 100%;
+}
+
+.start .container {
+    margin-bottom: 80px;
+}
+
+.start .text .title {
+    font-size: 4.4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: black;
+}
+
+.start .text .desc {
+    text-align: justify;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.start .text .button {
+    height: 42px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+    background-color: #2B2B2B;
+    border-radius: 40px;
+    color: white;
+    font-size: 1.1em;
+
+    transition: 0.3s;
+}
+
+.start .text .button:hover {
+    background-color: #111111;
+}
+
+.start .container-fluid {
+    padding: 0;
+    height: 100vh;
+    background-image: url("../../../public/img/page/hero.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .start .container {
+        padding: 20px;
+    }
+
+    .start .text .title {
+        font-size: 2.6em;
+        margin-bottom: 45px;
+    }
+
+    .start .text .button {
+        width: 100%;
+    }
+
+    .start .container-fluid {
+        height: 50vh;
+        background-position: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .start .container {
+        padding: 20px;
+    }
+
+    .start .text .title {
+        font-size: 2.6em;
+        margin-bottom: 45px;
+    }
+
+    .start .text .button {
+        width: 100%;
+    }
+
+    .start .container-fluid {
+        height: 100vh;
+        background-position: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .start .container-fluid {
+        height: 60vh;
+        background-position: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .start .container {
+        padding: 0;
+    }
+
+    .start .text .title {
+        font-size: 4.4em;
+        margin-bottom: 0;
+    }
+
+    .start .text .button {
+        width: 300px;
+    }
+
+    .start .container-fluid {
+        height: 100vh;
+        background-position: center;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

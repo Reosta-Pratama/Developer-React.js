@@ -1,0 +1,106 @@
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+.banner-photo {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.banner-photo .container {
+    align-items: center;
+    color: white;
+    font-family: "Manrope", Sans-serif;
+}
+
+.banner-photo .container .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.banner-photo .container h1 {
+    color: black;
+    font-size: 74px;
+    font-weight: 900;
+    text-transform: capitalize;
+    line-height: 96px;
+    word-spacing: 5px;
+}
+
+.banner-photo .container span {
+    color: #ef5d39;
+    font-weight: 700;
+    text-decoration: underline solid black 3px;
+}
+
+.banner-photo .container-fluid .row > * {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.banner-photo .container-fluid .images {
+    height: 500px;
+}
+
+.banner-photo .container-fluid .col:first-child .images,
+.banner-photo .container-fluid .col:last-child .images {
+    margin-top: 80px;
+}
+
+.banner-photo .container-fluid .col:nth-child(2) .images {
+    margin-top: 240px;
+}
+
+.banner-photo .container-fluid .col:nth-child(3) .images {
+    margin-top: 160px;
+}
+
+.banner-photo .container-fluid .images .img-fluid {
+    border-radius: 24pt;
+    height: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner-photo .container h1 {
+        font-size: 2em;
+        line-height: 1.4em;
+    }
+
+    .banner-photo .container-fluid {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner-photo .container h1 {
+        font-size: 2em;
+        line-height: 1.4em;
+    }
+
+    .banner-photo .container-fluid {
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .banner-photo .container-fluid {
+        display: block;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .banner-photo .container h1 {
+        font-size: 74px;
+        line-height: 96px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

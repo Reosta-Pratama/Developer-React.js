@@ -1,0 +1,170 @@
+/*--------------------------------------------------------------
+# Detail Portfolio
+--------------------------------------------------------------*/
+.detail-portfolio {
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.detail-portfolio .bot-80 {
+    margin-bottom: 80px;
+}
+
+.detail-portfolio .content-portfolio {
+    height: 100%;
+}
+
+.detail-portfolio .content-portfolio h1 {
+    font-size: 64px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.detail-portfolio .content-portfolio .desc p {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.detail-portfolio .content-portfolio .head {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.detail-portfolio .content-portfolio .head h2 {
+    color: #7E7E7E;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.detail-portfolio .content-portfolio .sub-head {
+    display: flex;
+    align-items: center;
+}
+
+.detail-portfolio .content-portfolio .sub-head h2 {
+    font-size: 18px;
+    line-height: 1;
+    padding-right: 10px;
+}
+
+.detail-portfolio .content-portfolio .head a {
+    color: #ef5d39;
+    text-transform: lowercase;
+    padding: 0 10px 10px 0;
+}
+
+.detail-portfolio .container-fluid {
+    padding: 0;
+}
+
+.detail-portfolio .container-fluid .images {
+    height: 90vh;
+    margin-bottom: 45px;
+}
+
+.detail-portfolio .container-fluid .images .img-fluid {
+    height: 100%;
+}
+
+.detail-portfolio .container-fluid .button {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-portfolio .container .button .btn,
+.detail-portfolio .container-fluid .button .btn {
+    height: 100%;
+    border-radius: 6pt;
+    font-size: 1rem;
+    background-color: #2B2B2B;
+    color: white;
+    transition: 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+}
+
+.detail-portfolio .container .button .btn:hover,
+.detail-portfolio .container-fluid .button .btn:hover {
+    background-color: #ef5d39;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .detail-portfolio .bot-80 {
+        margin-bottom: 45px;
+    }
+
+    .detail-portfolio .content-portfolio h1 {
+        font-size: 2em;
+    }
+
+    .detail-portfolio .content-portfolio .desc p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .detail-portfolio .container-fluid .images {
+        height: 45vh;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .detail-portfolio .bot-80 {
+        margin-bottom: 45px;
+    }
+
+    .detail-portfolio .content-portfolio h1 {
+        font-size: 2em;
+    }
+
+    .detail-portfolio .content-portfolio .desc p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .detail-portfolio .container-fluid .images {
+        height: 90vh;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .detail-portfolio .container-fluid .images {
+        height: 45vh;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .detail-portfolio .bot-80 {
+        margin-bottom: 80px;
+    }
+
+    .detail-portfolio .content-portfolio h1 {
+        font-size: 64px;
+    }
+
+    .detail-portfolio .content-portfolio .desc p {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .detail-portfolio .container-fluid .images {
+        height: 90vh;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

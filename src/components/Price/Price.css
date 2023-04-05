@@ -1,0 +1,172 @@
+/*--------------------------------------------------------------
+# Price
+--------------------------------------------------------------*/
+.price {
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.price .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.price .text .title {
+    font-family: "Manrope", Sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 64px;
+
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+}
+
+.price .content-price {
+    background-color: #7878780D;
+    padding: 30px;
+    border-radius: 12pt;
+}
+
+.price .content-price .sub-title {
+    color: #262626;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.price .content-price .value {
+    display: flex;
+    align-items: center;
+    font-family: "Neue Haas Grotesk Display Pro","Open Sans",sans-serif !important;
+}
+
+.price .content-price .value .rp {
+    color: #262626;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.price .content-price .value h3 {
+    color: #262626;
+    font-size: 64px;
+    font-weight: 600;
+    margin: 0 5px;
+}
+
+.price .content-price .value .month {
+    font-size: 18px;
+    color: #858585;
+    text-transform: capitalize;
+    font-family: Plus Jakarta Sans !important;
+}
+
+.price .content-price .desc {
+    margin: 30px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.price .content-price .desc li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    margin-top: 15px;
+}
+
+.price .content-price .desc li:nth-child(1) {
+    margin-top: 0;
+}
+
+.price .content-price .desc i {
+    width: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.price .content-price .desc .green {
+    color: #ef5d39;
+}
+
+.price .content-price .desc .red {
+    color: #757575;
+}
+
+.price .content-price .desc span {
+    margin-left: 10px;
+}
+
+.price .content-price .button {
+    margin-top: 30px;
+}
+
+.price .content-price .button a {
+    border-radius: 6pt;
+    font-size: 1.1em;
+    height: 42px;
+    width: 100%;
+    background-color: #ef5d39;
+    color: white;
+    transition: 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .price .text {
+        margin-bottom: 35px;
+    }
+
+    .price .text .title {
+        font-size: 2.6em;
+        line-height: 1.2;
+    }
+
+    .price .content-price {
+        margin-top: 45px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .price .text {
+        margin-bottom: 35px;
+    }
+
+    .price .text .title {
+        font-size: 2.6em;
+        line-height: 1.2;
+    }
+
+    .price .content-price {
+        margin-top: 45px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .price .text {
+        margin-bottom: 80px;
+    }
+
+    .price .text .title {
+        font-size: 60px;
+        line-height: 64px;
+    }
+
+    .price .content-price {
+        margin-top: 0;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
